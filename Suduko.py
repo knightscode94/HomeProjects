@@ -1,33 +1,14 @@
 print("Welcome input your puzzle using 0 for the blanks")
-l1 = input("input First row of numbers: ")
-l2 = input("input Second row of numbers: ")
-l3 = input("input Third row of numbers: ")
-l4 = input("input Fourth row of numbers: ")
-l5 = input("input Fifth row of numbers: ")
-l6 = input("input Sixth row of numbers: ")
-l7 = input("input Seventh row of numbers: ")
-l8 = input("input Eighth row of numbers: ")
-l9 = input("input Ninth row of numbers: ")
-ln1 = l1.split()
-ln2 = l2.split(" ")
-ln3 = l3.split(" ")
-ln4 = l4.split(" ")
-ln5 = l5.split(" ")
-ln6 = l6.split(" ")
-ln7 = l7.split(" ")
-ln8 = l8.split(" ")
-ln9 = l9.split(" ")
-int(ln1)
 board = [
-    [ln1],
-    [ln2],
-    [ln3],
-    [ln4],
-    [ln5],
-    [ln6],
-    [ln7],
-    [ln8],
-    [ln9]
+    [0,0,0,7,2,0,0,6,4],
+    [0,0,0,0,0,0,9,0,8],
+    [0,0,0,0,6,0,0,1,0],
+    [0,9,7,0,0,0,0,0,6],
+    [0,0,5,1,0,2,4,0,0],
+    [8,0,0,0,0,0,1,3,0],
+    [0,1,0,0,8,0,0,0,0],
+    [9,0,3,0,0,0,0,0,0],
+    [7,5,0,0,3,6,0,0,0]
 ]
 
 def solve(bo):
